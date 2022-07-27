@@ -1,0 +1,23 @@
+body {
+    margin: 8px;
+    padding: 8px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+.size {
+    font-size: 24px;
+}
+
+footer p {
+    text-align: left;
+}
+
+.wiki {
+    color: purple;
+    font-size: 24px;
+}

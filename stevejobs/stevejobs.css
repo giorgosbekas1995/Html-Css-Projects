@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+.font_style {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+}
+
+header img {
+
+    width: 100%;
+    max-width: 900px;
+}
+
+
+.graycolor {
+    background-color: lightgray;
+}
+
+.tableDate {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+    font-size: 14px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.tableContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+.sectionTable {
+    max-width: 600px;
+    border-top: 2px solid rgb(148, 148, 148);
+}
+
+.sectionTable,
+.sectionTable>tr,
+.sectionTable>td {
+    border-collapse: collapse;
+}
+
+.rightTable {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightTable h2 {
+    align-items: center;
+}
+
+.rightTable td {
+    text-align: center;
+}
+
+.rightTable img {
+    width: 300px;
+    max-width: 90%;
+}
+
+.tableTitle {
+    margin-right: 700px;
+    color: #ececec;
+    font-size: 50px;
+}
+
+.sectionTable td {
+    border-bottom: 2px solid rgb(148, 148, 148);
+}
+
+.sectionTable td:first-child {
+    font-weight: 700;
+}
+
+footer {
+    width: 85%;
+    margin-top: 16px;
+    background-color: #ececec;
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .tableContainer {
+        justify-content: center;
+    }
+
+    .sectionTable,
+    .rightTable {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .rightTable {
+        max-width: 400px;
+    }
+
+    .tableTitle {
+        margin: 0;
+        text-align: center;
+        color: #ececec;
+        font-size: 35px;
+    }
+}
